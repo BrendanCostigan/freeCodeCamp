@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;  /* Needed to make the backgroun image appear */
+} 
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: xx-large;
+    color: lemonchiffon;
+}
+
+ul {
+    margin-left: -40px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+.summary p {
+    position: absolute; /* An element with position: absolute; is positioned relative to the nearest positioned (note positioned which means not the default which is static) ancestor */
+    top: 180px;
+}
+
+.title-group {
+    position: absolute;
+    top: 200px;
+}
+
+
+.pageSocialMedia {
+    background-image: url("https://dl.dropboxusercontent.com/s/vwb3gxav4talzw2/DSC00164_1920_1278.jpg");
+    background-color: grey;
+    background-size: cover; /* not sure why this is 'cover', there seems to be various options */
+    background-repeat: no-repeat;
+    height: 100%; /* Needed to make the background image appear */
+    margin-top: 51px;   /* Needed to drop down the first image from being under the header bar */
+}
+
+.container-fluid {  /* Need to give a height to all the containers above the images */
+    height: 100%;
+}
+
+.row {              /* Need to give a height to all the containers above the images */
+    height: 100%;
+}
+
+.summaryWrapper {
+    position: relative;
+    height: 100%;
+}
+
+.summary {
+    background-image: url("https://dl.dropboxusercontent.com/s/0ktfj1ut4cimu92/DSC00159_1920_1278.jpg");
+    background-color: grey;
+    background-size: cover; /* not sure why this is 'cover', there seems to be various options */
+    background-repeat: no-repeat;
+    height: 100%; /* Needed to make the background image appear */
+}  
+
+.summary p {
+   color: white;
+   background: grey; /* fallback color */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 10px;
+}  
+
+.portfolioWrapper {
+    position: relative;
+    height: 100%;
+}
+
+.portfolioWrapper h2 {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50px;   
+}
+
+.portfolio {
+    background-image: url("https://dl.dropboxusercontent.com/s/y1ozxbffs3ojpvd/DSC00165_1920_1278.jpg");
+    background-color: grey;
+    background-size: cover; /* not sure why this is 'cover', there seems to be various options */
+    background-repeat: no-repeat;
+    height: 100%; /* Needed to make the background image appear */
+} 
+
+.portfolioItemCaption {
+   color: white;
+   background: grey; /* fallback color */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 10px;
+   text-align: center;
+}
+
+.thumbnailWrapper {
+    position: absolute;
+    top: 200px;
+}
+
+
+.footerLinks {
+    display: inline;
+    text-align: center;
+    margin-top: 10px;
+}
