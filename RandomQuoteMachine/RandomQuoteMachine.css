@@ -1,0 +1,56 @@
+body {
+    background-color: ghostwhite;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+#quoteWrapper {
+    position: relative;    
+    text-align: center;
+    height: 200px;
+}
+
+#quote {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    font-size: large;
+}
+
+#authorWrapper {
+    position: relative;    
+    text-align: center;
+    height: 150px;
+}
+
+#author {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    font-size: medium;
+}
+
+#buttonWrapper {
+    position: relative;
+    text-align: center;
+    height: 100px;
+    width: 100%;    
+}
+
+button {
+    top: 25px;    
+    margin: 0 auto;
+    background-color: blue;
+    width: 125px;
+    height: 40px;
+    font-size: large;
+}
+
+a {
+    top: 25px;    
+    margin: 0 auto;
+    background-color: blue;
+    width: 125px;
+    height: 40px;
+    font-size: large;
+}
+
