@@ -27,7 +27,6 @@ li {
     top: 200px;
 }
 
-
 .pageSocialMedia {
     background-image: url("https://dl.dropboxusercontent.com/s/vwb3gxav4talzw2/DSC00164_1920_1278.jpg");
     background-color: grey;
@@ -93,14 +92,23 @@ li {
    text-align: center;
 }
 
+.itemWrapper {
+    display: inline-block;
+    margin-left: 10px;      /* Put gap between portfolio items */
+}
+
+.itemWrapper img {
+    height: 300px;
+    width: 250px;
+}
+
 .thumbnailWrapper {
     position: absolute;
     top: 200px;
+    width: 100%;   /* Not sure why this is necessary but without it the portfolio ietms do not use full page */
 }
 
-
 .footerLinks {
-    display: inline;
     text-align: center;
     margin-top: 10px;
 }
