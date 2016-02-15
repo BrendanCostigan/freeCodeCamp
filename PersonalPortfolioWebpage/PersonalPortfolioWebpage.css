@@ -1,5 +1,5 @@
 html, body {
-    height: 100%;  /* Needed to make the backgroun image appear */
+    height: 100%;  /* Needed to make the background image appear */
 } 
 
 h1 {
@@ -54,7 +54,7 @@ li {
     background-color: grey;
     background-size: cover; /* not sure why this is 'cover', there seems to be various options */
     background-repeat: no-repeat;
-    height: 100%; /* Needed to make the background image appear */
+    height: 100%;   /* Needed to make the background image appear */
 }  
 
 .summary p {
